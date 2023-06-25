@@ -1,0 +1,273 @@
+p {
+  font-family: "Gilroy", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 140px;
+}
+
+.nav__urls {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav__urls > a {
+  text-decoration: none;
+  color: var;
+}
+
+.nav__url {
+  color: var(--primary-300-base, #0065fe);
+  font-size: 18px;
+  font-family: "Gilroy-Medium";
+}
+
+.nav__loginbut {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+  color: var(--text-color-main-text, #141414);
+}
+
+.header__text {
+  position: relative;
+  height: 200px;
+  color: #141414;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Gilroy-Bold";
+}
+
+.header__urlshortening {
+  color: var(--primary-300-base, #0065fe);
+}
+
+.header__img {
+  height: 19.908px;
+  left: 600px;
+  position: absolute;
+  top: 160px;
+  width: 174px;
+}
+
+.header__p {
+  color: var(--text-color-main-text, #141414);
+  text-align: center;
+  font-size: 18px;
+  font-family: "Gilroy-Medium";
+  line-height: 28px;
+  margin-inline: 300px;
+}
+
+.signuplearn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.signuplearn > button {
+  font-size: 16px;
+  font-family: "Gilroy-SemiBold";
+  width: 142px;
+  height: 44px;
+  padding: 12px 24px;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  background: var(--primary-300-base, #0065fe);
+}
+
+.signuplearn > p {
+  color: var(--primary-300-base, #0065fe);
+  font-size: 16px;
+  font-family: "Gilroy-SemiBold";
+}
+
+.frame {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.frame__img {
+  position: absolute;
+}
+
+.framehead {
+  position: relative;
+  margin-bottom: 76px;
+  margin-top: 80px;
+  top: 15px;
+  width: 650px;
+  padding: 40px 60px;
+  border-radius: 24px;
+  border: 0.5px solid var(--primary-400, #005ae2);
+  background: rgba(254, 254, 254, 0.1);
+  backdrop-filter: blur(106px);
+}
+
+.framehead > p {
+  text-align: center;
+  margin-inline: 100px;
+}
+
+.sectio2 {
+  display: flex;
+  justify-content: center;
+  padding: 0px 4px;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.section2 {
+  color: #141414;
+  font-size: 30px;
+  font-family: "Gilroy-Bold";
+  margin-top: 5px;
+  line-height: 10px;
+}
+
+.section2 > p > span {
+  color: var(--primary-300-base, #0065fe);
+}
+
+.sectio2__users {
+  display: flex;
+  gap: 72px;
+}
+
+.sectio2__usersp {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 10px;
+
+}
+
+.sectio__inner {
+    display: flex; 
+    gap: 70px;  
+    margin-left: 10rem;
+}
+
+.sectio__inner2 {
+     display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.sectio__inner2pp {
+    color: var(--text-color-main-text, #141414);
+font-size: 16px;
+font-family: 'Gilroy-Medium';
+width: 300px;
+}
+
+.sectio__inner2ppp {
+    color: #141414;
+    font-size: 40px;
+    font-family: 'Gilroy-Bold';
+}
+
+.sectio__inner2pppp {
+    color: var(--text-color-main-text, #141414);
+font-size: 16px;
+font-family: 'Gilroy-Medium';
+width: 300px;
+}
+
+.faq {
+  background-color: #fff;
+}
+
+.faq__heading {
+  color: var(--blue-dark);
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.faq__detail {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  margin: 20px 0 0 0;
+  padding: 5px 0 20px 0;
+}
+
+.faq__summary:hover,
+.faq__summary:active {
+  cursor: pointer;
+}
+
+.faq__summary {
+  list-style: none;
+}
+
+.faq__summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq__summary {
+  display: block;
+  padding: 0;
+  position: relative;
+  text-align: right;
+}
+
+.faq__summary:after {
+  display: inline-block;
+  content: url("public/images/plus.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+details[open] .faq__summary:after {
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  content: "";
+  background-image: url("public/images/minus.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.faq__question {
+  left: 0;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 90%;
+}
+
+.faq__question {
+  display: inline-block;
+  margin: 5px 0;
+  text-align: left;
+  width: 90%;
+}
+
+.faq__summary {
+  font-size: 1.4rem;
+}
+
+.faq__text {
+  font-size: var(--base-font-size);
+  line-height: 1.6;
+  margin: 10px 0 0 0;
+}
+
+.hidden-lg {
+  display: block;
+}
+
+.visible-lg {
+  display: none;
+}
